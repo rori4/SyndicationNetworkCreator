@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane style="-fx-background-color: #3646a3;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox>
+         <children>
+            <JFXButton alignment="BOTTOM_LEFT" buttonType="RAISED" graphicTextGap="15.0" prefHeight="25.0" prefWidth="330.0" text="Personas" textAlignment="JUSTIFY" textFill="WHITE" textOverrun="CLIP">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+               <padding>
+                  <Insets bottom="10.0" left="25.0" right="10.0" top="10.0" />
+               </padding>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/acc.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="BOTTOM_LEFT" graphicTextGap="15.0" prefHeight="25.0" prefWidth="330.0" text="Statistics" textAlignment="JUSTIFY" textFill="WHITE" textOverrun="CLIP">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/stats.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets bottom="10.0" left="25.0" right="10.0" top="10.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton alignment="BOTTOM_LEFT" graphicTextGap="15.0" prefHeight="25.0" prefWidth="330.0" text="Settings" textAlignment="JUSTIFY" textFill="WHITE" textOverrun="CLIP">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/settings.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets bottom="10.0" left="25.0" right="10.0" top="10.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton alignment="BOTTOM_LEFT" graphicTextGap="15.0" prefHeight="25.0" prefWidth="330.0" text="Help" textAlignment="JUSTIFY" textFill="WHITE" textOverrun="CLIP">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/help.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets bottom="10.0" left="25.0" right="10.0" top="10.0" />
+               </padding>
+            </JFXButton>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
